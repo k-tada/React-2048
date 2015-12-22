@@ -1,0 +1,22 @@
+import React from 'react';
+import GameBoard from './GameBoard.js';
+import StatusBar from './StatusBar.js';
+import update from 'react-addons-update';
+
+export default class Game extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      score: 0
+    }
+  }
+
+  render() {
+    return (
+      <div className="Game2048">
+        <GameBoard addScore={this.addScore.bind(this)} />
+      </div>
+    )
+  }
+}
+

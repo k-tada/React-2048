@@ -1,0 +1,68 @@
+.Cell {
+  border: 5px solid #ccc;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #eee;
+
+  &__cover {
+    background-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff #999 #999 #fff;
+    height: 100%;
+
+    &--opened {
+      background-color: #ddd;
+      border: 1px solid #ddd;
+    }
+  }
+
+  &__number0 {
+    color: #eee;
+  }
+  &__number2 {
+    background-color: #ffc;
+  }
+  &__number4 {
+    background-color: #fc9;
+  }
+  &__number8 {
+    background-color: #f96;
+  }
+  &__number16 {
+    background-color: #f90;
+  }
+  &__number32 {
+    background-color: #f60;
+    color: #fff;
+  }
+  &__number64 {
+    background-color: #f30;
+    color: #fff;
+  }
+  &__number128 {
+    background-color: #f30;
+    color: #fff;
+    font-size: 20px;
+  }
+  &__number256 {
+    background-color: #f00;
+    color: #fff;
+    font-size: 20px;
+  }
+  &__number512 {
+    background-color: #f39;
+    color: #fff;
+    font-size: 20px;
+  }
+  &__number1024 {
+    background-color: #f3f;
+    color: #fff;
+  }
+  &__number2048 {
+    background-color: #ff0;
+  }
+}
